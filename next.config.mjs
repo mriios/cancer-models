@@ -35,9 +35,9 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "**"
 			}
-		]
-	},
-	unoptimized: true
+		],
+		unoptimized: true
+	}
 };
 
 export default withMDX(nextConfig);
