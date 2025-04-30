@@ -36,7 +36,8 @@ const nextConfig = {
 				hostname: "**"
 			}
 		]
-	}
+	},
+	unoptimized: true
 };
 
 export default withMDX(nextConfig);
