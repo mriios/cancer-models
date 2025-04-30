@@ -28,11 +28,7 @@ const nextConfig = {
 	reactStrictMode: true,
 	pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 	swcMinify: true,
-	output: "standalone",
-	i18n: {
-		locales: ["en"],
-		defaultLocale: "en"
-	},
+	output: "export",
 	images: {
 		remotePatterns: [
 			{
@@ -40,19 +36,6 @@ const nextConfig = {
 				hostname: "**"
 			}
 		]
-	},
-	async headers() {
-		return [
-			{
-				source: "/(.*)",
-				headers: [
-					{
-						key: "Content-Security-Policy",
-						value: cspHeader.replace(/\n/g, "")
-					}
-				]
-			}
-		];
 	}
 };
 
