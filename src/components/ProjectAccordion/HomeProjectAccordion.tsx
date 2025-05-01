@@ -70,7 +70,7 @@ const HomeProjectAccordion = () => {
 								className="mb-1 d-flex"
 							>
 								<Image
-									src={`/img/providers/${provider?.data_source}.png`}
+									src={`./img/providers/${provider?.data_source}.png`}
 									alt={`${provider?.provider_name} logo`}
 									title={provider?.provider_name}
 									className="w-auto h-auto m-auto"

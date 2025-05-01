@@ -1148,7 +1148,7 @@ const ModelDetails = ({
 														}}
 													>
 														<Image
-															src="/img/cbioportal.png"
+															src="./img/cbioportal.png"
 															alt="cBioPortal logo"
 															width={100}
 															height={50}
