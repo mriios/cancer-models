@@ -1,7 +1,7 @@
 ---
 name: Vall d’Hebron Institute of Oncology - Breast cancer
 abbreviation: VHIO-BC
-logo: img/providers/VHIO-BC.png
+logo: ./img/providers/VHIO-BC.png
 ---
 
 VHIO is a leading comprehensive cancer center of excellence where its scientists and physicians adopt a purely translational research model, working together as multidisciplinary teams to both accelerate and advance personalized and targeted therapies against cancer.

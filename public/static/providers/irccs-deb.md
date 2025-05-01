@@ -1,7 +1,7 @@
 ---
 name: National Institute of Research in Gastroenterology “Saverio de Bellis”
 abbreviation: IRCCS-DEB
-logo: img/providers/IRCCS-DEB.png
+logo: ./img/providers/IRCCS-DEB.png
 ---
 
 The National Institute of Research in Gastroenterology “Saverio de Bellis” (IRCCS-DEB) is an hospital and research center specialized in the field of gastroenterology. The Institute is a recognized IRCCS (Istituto di Ricovero e Cura a Carattere Scientifico) by the Italian Ministry of Health. 

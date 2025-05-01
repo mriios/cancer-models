@@ -1,7 +1,7 @@
 ---
 name: University Medical Center Utrecht - Clevers Group - Hubrecht Institute
 abbreviation: UMCU
-logo: img/providers/UMCU.png
+logo: ./img/providers/UMCU.png
 ---
 
 Hans Clevers is Head of pharma Research and Early Development (pRED) of Roche, Basel Switzerland, since March 2022. He was group leader at the Hubrecht Institute from 2002 until March 2022 and currently he is advisor/guest researcher at the Hubrecht Institute.

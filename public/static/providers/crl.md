@@ -1,7 +1,7 @@
 ---
 name: Charles River Laboratories
 abbreviation: CRL
-logo: img/providers/CRL.png
+logo: ./img/providers/CRL.png
 ---
 
 Charles River offers more than 450 fully characterized proprietary patient-derived PDXs (PDX Models) in our portfolio, which represent all major histotypes and tumors, and provide extensive background and characterization.

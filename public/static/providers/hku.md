@@ -1,7 +1,7 @@
 ---
 name: The University of Hong Kong, Queen Mary Hospital
 abbreviation: HKU
-logo: img/providers/HKU.png
+logo: ./img/providers/HKU.png
 ---
 
 The Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong aims:

@@ -1,7 +1,7 @@
 ---
 name: Cold Spring Harbor Laboratory
 abbreviation: CSHL
-logo: img/providers/CSHL.png
+logo: ./img/providers/CSHL.png
 ---
 
 Cold Spring Harbor Laboratory (CSHL) has been awarded a research subcontract by Leidos Biomedical Research to lead a Cancer Model Development Center (CMDC) for pancreatic, breast, colorectal, lung, liver and other upper-gastrointestinal cancers.
