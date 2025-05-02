@@ -81,7 +81,7 @@ const ProviderInfo = ({
 				<div className="col-12 d-lg-flex align-center justify-content-between">
 					{logo && (
 						<Image
-							src={`./${logo}`}
+							src={`${logo}`}
 							alt={`${name} logo`}
 							width={200}
 							height={200}
