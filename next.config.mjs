@@ -26,6 +26,7 @@ const withMDX = nextMdx({
 
 const nextConfig = {
 	basePath: "/cancer-models",
+	assetPrefix: "/cancer-models",
 	reactStrictMode: true,
 	pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 	swcMinify: true,
