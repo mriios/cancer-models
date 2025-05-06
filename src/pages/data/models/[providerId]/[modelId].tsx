@@ -2,7 +2,7 @@ import { driver } from "driver.js";
 import "driver.js/dist/driver.css";
 import FileSaver from "file-saver";
 import JSZip from "jszip";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetServerSideProps, GetStaticPaths } from "next";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import Image from "next/image";
@@ -2029,7 +2029,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 	};
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getServerSideProps: GetServerSideProps = async ({ params }) => {
 	const {
 		metadata,
 		extLinks,
