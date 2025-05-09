@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
-import { GetStaticPaths, GetStaticProps } from "next";
+import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Button from "../../../components/Button/Button";
-import { getProviderData } from "../../../utils/providers";
+import { getAllProvidersId, getProviderData } from "../../../utils/providers";
 import styles from "./Provider.module.scss";
 
 type ProviderProps = {
@@ -76,9 +75,11 @@ const Provider: NextPage<ProviderProps> = ({ providerData }: ProviderProps) => {
 export default Provider;
 
 export const getStaticPaths: GetStaticPaths = async () => {
+	const paths = await getAllProvidersId();
+
 	return {
-		paths: [],
-		fallback: "blocking"
+		paths,
+		fallback: false
 	};
 };
 
@@ -87,8 +88,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 	return {
 		props: {
-			providerData,
-			revalidate: 600
+			providerData
 		}
 	};
 };
