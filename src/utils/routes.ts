@@ -15,7 +15,6 @@ export type Route = {
 export const routes: Route[] = [
 	{ path: "/", name: "Home" },
 	{ path: "/search", name: "Search" },
-	{ path: "/submit", name: "Submit" },
 	{ path: "/overview", name: "Overview" },
 	{
 		path: "/contact",
@@ -46,11 +45,6 @@ export const routes: Route[] = [
 				opensNewTab: true
 			},
 			{
-				path: "/cbioportal",
-				name: "cBioPortal",
-				opensNewTab: true
-			},
-			{
 				path: "https://github.com/PDCMFinder/",
 				name: "Open source repositories",
 				opensNewTab: true
@@ -68,9 +62,5 @@ export const routesWithGAEvents = [
 	{
 		routeName: "API",
 		eventName: "view_api"
-	},
-	{
-		routeName: "cBioPortal",
-		eventName: "view_cbioportal"
 	}
 ];
