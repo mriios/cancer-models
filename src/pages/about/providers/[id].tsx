@@ -34,7 +34,7 @@ const Provider: NextPage<ProviderProps> = ({ providerData }: ProviderProps) => {
 						<div className="col-12 col-md-3">
 							{providerData.logo && (
 								<Image
-									src={`./${providerData.logo}`}
+									src={`${providerData.logo}`}
 									alt={`${providerData.name} logo`}
 									width={3500}
 									height={3500}
