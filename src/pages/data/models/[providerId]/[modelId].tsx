@@ -8,8 +8,10 @@ const ModelDetails = () => {
 	const router = useRouter();
 	const modelId = (router.query.modelId ?? "") as string;
 	const providerId = (router.query.providerId ?? "") as string;
-	const { data, isLoading, isError } = useQuery(["model-data", modelId], () =>
-		getAllModelData(modelId, providerId)
+	const { data, isLoading, isError } = useQuery(
+		["model-data", modelId],
+		() => getAllModelData(modelId, providerId),
+		{ enabled: !!modelId && !!providerId }
 	);
 
 	if (isLoading) return <div>Loading...</div>;
