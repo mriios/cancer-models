@@ -100,3 +100,6 @@ cypress/screenshots/*
 cypress/videos/*
 
 .fttemplates
+
+# We generate sitemaps on build
+sitemap*.xml
